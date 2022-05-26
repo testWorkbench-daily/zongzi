@@ -1,9 +1,16 @@
 .App{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 205px;
+    left: 125px;
+  
 }
+body{
+    background-image: url(img.png) ;
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+    background-position:center 50px;
 
+}
 .zongzi{ width: 0; height: 0; border-left: 120px solid transparent; border-right: 120px solid transparent; border-bottom: 200px solid #FFEDC8; position: relative; } .round1,.round2,.round3{ width: 238px; height: 43px; background: #FFEDC8; border: 2px solid; border-radius: 100% 100% 0 0/100px 100px 0 0; transform: rotate(-59deg); position: absolute; left: -198px; top: 67px; z-index: -1; } .round2{ left: -48px; top: 64px; transform: rotate(59deg); z-index: -2; width: 229px; } .round3{ left: -126px; top: 193px; transform: rotate(180deg); z-index: -3; width: 236px; }
 
 .ruoye{ position: absolute; } .ruoye{ position: relative; } .ruoye-left{ width: 234px; height: 128px; background: #87D15D; border-radius: 0 0px 288px 86px/0 0 205px 103px; transform: rotate(22deg); position: absolute; top: -79px; left: -12px; z-index: 2; } .ruoye-left::after{ content: ""; position: absolute; right: -30px; top: 36px; background: #87D15D; width: 112px; height: 33px; border-radius: 0 0 344px 326px/0 0 185px 211px; transform: rotate(-51deg); } .ruoye-left .line1, .ruoye-left .line2, .ruoye-left .line3, .ruoye-left .line4{ width: 234px; height: 2px; background: #49912C; position: absolute; top: -2px; left: 3px; z-index: 1; } .ruoye-left .line1-bg{ background: #333; height: 3px; } .ruoye-left .line2{ width: 242px; top: 28px; left: -2px; } .ruoye-left .line3{ width: 233px; top: 53px; left: -2px; } .ruoye-left .line4{ width: 211px; top: 76px; left: -2px; } .ruoye-right{ width: 100px; height: 124px; background: #87D15D; border-radius: 0 0px 93px 66px/0 0 125px 70px; transform: rotate(-24deg); position: absolute; left: 143px; top: -102px; } .ruoye-right .line1, .ruoye-right .line2, .ruoye-right .line3, .ruoye-right .line4{ width: 98px; height: 2px; background: #49912C; position: absolute; top: -2px; left: 3px; z-index: 1; } .ruoye-right .line1-bg{ background: #333; height: 3px; } .ruoye-right .line2{ width: 92px; top: 20px; left: 9px; } .ruoye-right .line3{ width: 92px; top: 40px; left: 9px; } .ruoye-right .line4{ width: 92px; top: 60px; left: 9px; }
