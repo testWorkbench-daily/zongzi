@@ -4,8 +4,7 @@ function App() {
   return (
     <div className="App"> 
         <Zongzi/>
-        <p>我是mai分之1.0.0</p>
-        <p>diyici</p>
+        <p>我是1.0.0</p>
     </div>
   );
 }
