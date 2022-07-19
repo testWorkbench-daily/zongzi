@@ -5,6 +5,7 @@ function App() {
     <div className="App"> 
         <Zongzi/>
         <p>我是main分之</p>
+        <p>diyici</p>
     </div>
   );
 }
